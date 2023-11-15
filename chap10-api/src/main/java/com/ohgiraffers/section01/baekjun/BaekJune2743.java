@@ -1,8 +1,6 @@
 package main.java.com.ohgiraffers.section01.baekjun;
 
-import java.util.Scanner;
-
-public class Test3 {
+public class BaekJune2743 {
 
     public static void main(String[] args){
 

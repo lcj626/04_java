@@ -6,6 +6,7 @@ public class Test2 {
 
     public static void main(String[] args) {
 
+
         int[] arrInt = {2, 4, 6, 8};
         for (int i = 0 ; i < arrInt.length ; i++)
         {

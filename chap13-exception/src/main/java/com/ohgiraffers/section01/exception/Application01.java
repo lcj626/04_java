@@ -35,7 +35,7 @@ public class Application01 {
 
         et.checkEnoughMoney(1000000, 100); // 이곳에서도 예외를 호출 하지 않아서 ->호출한 곳(main(String))에서 처리 -> price > money 이니 예외임
 
-        et.checkEnoughMoney(5000, 10000); //throws 는 예외를 처리한 것이 아니다 그냥 던져서 알려주는 개념 -> 예외가 발생되는 부분부터 멈춤
+        et.checkEnoughMoney(5000, 10000); //throws 는 예외를 처리한 것이 아니다 그냥 던져서 알려 주는 개념 -> 예외가 발생 되는 부분 부터 멈춤
 
         System.out.println("프로그램을 종료합니다.");
 

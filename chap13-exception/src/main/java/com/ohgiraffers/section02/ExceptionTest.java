@@ -12,7 +12,7 @@ public class ExceptionTest {
 
 
         if(price<0) {
-            throw new PriceNegativeException("상품 가격은 음수일 수 없습니다");//예외를 별도로 정의
+            throw new PriceNegativeException("상품 가격은 음수일 수 없습니다");//Exception 하나로 다 묶을 수 있지만 쪼개서 예외를 각각 별도로 정의
         }
         if(money < 0){//else if 로 묶어버리면 위에거 끝나고 끝나버릴 수 있음 따로따로가 좋을때가 있다
             throw new MoneyNegativeException("가지고 있는 돈은 음수일 수 없습니다.");

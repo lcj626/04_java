@@ -2,7 +2,7 @@ package main.java.com.ohgiraffers.section01.baekjun;
 
 import java.util.Scanner;
 
-public class Test6 {
+public class BaekJune10988 {
 
     public static void main(String[] args){
 
@@ -16,6 +16,7 @@ public class Test6 {
         }*/
 
         Scanner sc = new Scanner(System.in);
+        System.out.println("단어를 입력해 주세요");
 
         String str = sc.next();
         sc.close();

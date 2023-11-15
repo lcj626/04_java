@@ -7,9 +7,8 @@ public class Application02 {
         ExceptionText et = new ExceptionText();
 
         try{
+            et.checkEnoughMoney(1000000, 100); // money<price 예외 사항이라 이걸 먼저 실행시키면 아래 것이 실행되지 않고 여기서 스탑
             et.checkEnoughMoney(5000, 10000);
-            et.checkEnoughMoney(1000000, 100);
-
         }catch (Exception e){
             e.printStackTrace();
         }

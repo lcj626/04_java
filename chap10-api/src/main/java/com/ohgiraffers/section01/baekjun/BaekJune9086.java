@@ -1,6 +1,6 @@
 package main.java.com.ohgiraffers.section01.baekjun;
 
-public class Test2 {
+public class BaekJune9086 {
 
     public static void main(String[] args){
 
